@@ -27,21 +27,19 @@ User Authentication:
 
 Users log in using their credentials.
 The system verifies their details and issues a token.
-Role-Based Access Control (RBAC):
+# Role-Based Access Control (RBAC):
 
 Each user has a specific role: Guard, Manager, or Authority.
 The system checks the user's role before granting access to any service.
 # Setup Instructions
 Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/yourusername/your-repository.git
-Install dependencies:
-bash
-Copy code
+
+# Install dependencies:
+
 cd your-repository
 npm install
 Start the application:
-bash
-Copy code
+
 npm start
